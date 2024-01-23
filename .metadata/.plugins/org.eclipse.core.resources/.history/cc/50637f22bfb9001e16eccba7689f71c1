@@ -1,0 +1,6 @@
+package ex04;
+
+public class Snippet {
+	git remote add origin https://github.com/gangriver/java240123.git
+}
+
