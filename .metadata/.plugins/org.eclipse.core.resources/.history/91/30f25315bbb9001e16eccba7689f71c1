@@ -1,0 +1,16 @@
+package ex04;
+
+public static void main(String[] args) {
+
+	
+	//1~45 숫자 중에서 랜덤하게 6개 추출
+	int[] arrNum = new int[6];
+	
+for(int i=0; i<arrNum.length; i++) {
+	int num = (int)(Math.random()*45)+1;
+	arrNum[i] = num;
+}
+	for(int i=0; i<arrNum.length; i++)
+	Sysout.out.print(arrNum[i] + " ");
+}
+}

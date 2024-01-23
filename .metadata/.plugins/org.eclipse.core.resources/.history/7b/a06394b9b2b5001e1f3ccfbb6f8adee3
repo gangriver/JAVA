@@ -1,0 +1,23 @@
+package ex01;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("asdf");
+		System.out.println("asdf");
+		short a = 1;
+		int b = 2;
+		long c = 3;
+		byte d = 4;
+		
+		float e = (float) 0.1;
+		double f = 1.0d;
+		
+		String g = "abc";
+		
+		boolean h = true;
+		
+		System.out.println(f);
+	}
+}
