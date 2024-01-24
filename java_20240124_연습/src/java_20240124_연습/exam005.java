@@ -1,14 +1,20 @@
 package java_20240124_연습;
 
+import java.util.Scanner;
+
 public class exam005 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		for (int i = 0; i <= 10; i++)
-			for (int j = 0; j <= i; j++)
+		int x = 1;
+		int y = 1;
+		while(x<10) {
+			while(y<=x) {
 				System.out.print("*");
-		System.out.println();
-
+				y++;
+			}
+			System.out.println();
+			y=1;
+			x++;
+		}
 	}
-
 }
