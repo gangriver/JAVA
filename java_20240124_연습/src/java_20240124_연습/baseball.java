@@ -21,9 +21,7 @@ public class baseball {
 				}
 			}
 		}
-	for(int x : numArr) {
-		System.out.print(x + " ");
-	}
+	
 	Scanner s = new Scanner(System.in);
 	while(true) {
 		for(int i = 0; i < inputArr.length; i++) {
