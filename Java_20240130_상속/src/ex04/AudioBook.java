@@ -27,6 +27,7 @@ public class AudioBook extends Book {
 		this.narrator = narrator;
 	}
 	
+	@Override
 	void displayInfo() {
 		super.displayInfo();
 		System.out.println("Length: ["+ length + "] hours, Narrator: [" + narrator + "]");
