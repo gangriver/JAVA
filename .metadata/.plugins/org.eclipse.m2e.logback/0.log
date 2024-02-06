@@ -23,3 +23,6 @@
 2024-02-05 11:20:52,338 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@1bbbbc5c{STARTING}[12.0.3,sto=0] @93254ms
 2024-02-05 11:20:52,862 [qtp1896694493-86] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
 2024-02-05 11:20:53,209 [qtp1896694493-86] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-02-05 11:27:08,847 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-05 17:59:36,236 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@1bbbbc5c{STOPPING}[12.0.3,sto=0]
+2024-02-05 17:59:36,240 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@235c6b7e{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
