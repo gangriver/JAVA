@@ -42,7 +42,8 @@ public class Exam01 {
 			a.funA();
 		
 		a.funD();
-		System.out.println("------------------");
+		System.out.println("------------------"
+				+ ".");
 	}
 
 	public static void main(String[] args) {

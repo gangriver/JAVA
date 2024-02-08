@@ -39,6 +39,7 @@ public class FruitBoxEx01 {
 		
 		Box<Apple> abox = new Box<Apple>();
 		Box<Orange> bbox = new Box();
+		Box<Integer> ibox = new Box<Integer>();
 		
 		abox.setObj(new Apple());	//사과 담음
 		bbox.setObj(new Orange());	//오렌지 담음
@@ -49,22 +50,51 @@ public class FruitBoxEx01 {
 		System.out.println(ap);
 		System.out.println(op);
 		
-//		abox.setObj(10);
-//		abox.setObj(1.2);
-//		abox.setObj("String");
+		ibox.setObj(100);
+		int num = ibox.getObj();
+
 		
-		Box<Integer> cbox = new Box();
-		cbox.setObj(100);
+		
 	}
 }
 		
-//		Box a = new Box();
-//		
-//		a.setObj(new Apple());
-//		a.setObj(new Orange());
-//		
-//		Apple a1 = (Apple)a.getObj();
-//		Orange a2 = (Orange)a.getObj();
+/*
+  class Box<T>{  //사과,오렌지 담는 상자
+   private Apple obj;
+   
+   void setObj(Apple  obj) {
+      this.obj = obj;
+   }
+   
+   Apple  getObj(){
+      return obj;
+   }
+}
+
+class Box<T>{  //사과,오렌지 담는 상자
+   private Orange obj;
+   
+   void setObj(Orange  obj) {
+      this.obj = obj;
+   }
+   
+   Orange  getObj(){
+      return obj;
+   }
+}
+
+class Box<T>{  //사과,오렌지 담는 상자
+   private Integer obj;
+   
+   void setObj(Integer  obj) {
+      this.obj = obj;
+   }
+   
+   Integer  getObj(){
+      return obj;
+   }
+}
+ */
 	
 
 
