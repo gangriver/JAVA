@@ -21,7 +21,7 @@ public class SmartPhone extends Phone{
 		return "SmartPhone [wifi=" + wifi + "]";
 	}
 
-	public void internet() {
+	public void iet() {
 		System.out.println("인터넷 연결!!");
 	}
 

@@ -1,4 +1,4 @@
-package ex10;
+       package ex10;
 
 class Box<T>{		//T --> String
 	private T obj;
